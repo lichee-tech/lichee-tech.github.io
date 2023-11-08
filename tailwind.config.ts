@@ -8,6 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        "rich-black": "var(--color-rich-black)",
+        "neon-blue": "var(--color-neon-blue)",
+        "jasper": "var(--color-jasper)",
+        "mauve": "var(--color-mauve)",
+        "baby-powder": "var(--color-baby-powder)"
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
