@@ -15,6 +15,11 @@ const config: Config = {
         "mauve": "var(--color-mauve)",
         "baby-powder": "var(--color-baby-powder)"
       },
+      fontFamily: {
+        "logo": ["'Victor Mono'", 'monospace'],
+        "heading": ["'Space Grotesk'", 'sans-serif'],
+        "body": ["Karla", 'sans-serif'],
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
