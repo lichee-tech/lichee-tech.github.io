@@ -7,5 +7,13 @@
   --color-neon-blue: #5272F2;
   --color-jasper: #D9594C;
   --color-mauve: #E2A9FC;
-  --color-baby-powder: #FAF9F5;;
+  --color-baby-powder: #FAF9F5;
+  --color-faded-black: rgb(27, 27, 27);
+  --color-cream: #e2e1da;
+}
+
+@layer components {
+  body {
+    @apply font-body dark:bg-black dark:text-baby-powder;
+  }
 }

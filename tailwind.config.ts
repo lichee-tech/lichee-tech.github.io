@@ -13,7 +13,9 @@ const config: Config = {
         "neon-blue": "var(--color-neon-blue)",
         "jasper": "var(--color-jasper)",
         "mauve": "var(--color-mauve)",
-        "baby-powder": "var(--color-baby-powder)"
+        "baby-powder": "var(--color-baby-powder)",
+        "faded-black": "var(--color-faded-black)",
+        "cream": "var(--color-cream)"
       },
       fontFamily: {
         "logo": ["'Victor Mono'", 'monospace'],
